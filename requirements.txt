@@ -1,9 +1,16 @@
 fastapi
 uvicorn
+
+# Database
 pymongo
 motor
-python-jose
+
+# Auth & Security
 passlib[bcrypt]
+PyJWT
+python-multipart
+
+# Pydantic / Settings / Validation
+pydantic
 pydantic-settings
 email-validator
-PyJWT
